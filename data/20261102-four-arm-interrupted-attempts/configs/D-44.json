@@ -1,0 +1,42 @@
+{
+  "arm": "D",
+  "arm_name": "sop+workbench",
+  "seed": 44,
+  "stage_path": "/Users/lili/Desktop/test/具体正向设计差异-设计稿送审-完整包/原始证据/双案例来源/案例01-送审/stage1.md",
+  "stage_sha256": "6935f569934f14fc4d167707572243c9f0d0dde30ea0e88e5e2609673280cf8b",
+  "materials": [
+    [
+      "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/01-SKILL.md",
+      "355e56887202044a848e6b49ba4ae8d62e19054b1b1c8ce5ab4238c59aa1d59f"
+    ],
+    [
+      "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/02-SKILL.md",
+      "b748b0953d31ed5be4f622d7b70d8431c2f76ed39b731abe185e7589b1383797"
+    ],
+    [
+      "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/03-SKILL.md",
+      "432b891397c0f67cb80ad7bef82ee18434382062106fb99d14ac3460161ee1a5"
+    ],
+    [
+      "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/04-SKILL.md",
+      "a9364f71078dae93a02b86797094f00f09d90d32f638bffdb38b429b3188e456"
+    ],
+    [
+      "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/05-SKILL.md",
+      "e79419f126131f3240b4d9d74beef5e374bf3d9b8338540f50fa449cf247591b"
+    ],
+    [
+      "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/06-产品PC规则.md",
+      "01f4598ab2c075f7ad5c2b37706fe59f3efb1df4ac8d40b4c9e08c7c21aadc27"
+    ],
+    [
+      "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/07-技术TC规则.md",
+      "7916d07f8008159a617b5950b5b36fd2d7fb8bc6678489b87c58185dfda86a7b"
+    ],
+    [
+      "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/08-模块接口与数据.md",
+      "44585eb0b723003a59b72842c2bcc35826af4b63e63f360a6a594721db33c690"
+    ]
+  ],
+  "workbench_cli": "/Users/lili/Desktop/test/formsy-local-kit-test-20261029/isolated/config/sop-runtimes/bca1b2cf88bb7a6b28c97c10dbfc8a8a13f4d90ba4994707642704493b50d804/venv/bin/formsy-sop"
+}

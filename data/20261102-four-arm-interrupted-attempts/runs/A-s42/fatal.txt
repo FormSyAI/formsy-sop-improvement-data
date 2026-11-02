@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-4组3seed/ablation_host.py", line 291, in main
+    return asyncio.run(run(args))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lili/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/lili/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lili/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-4组3seed/ablation_host.py", line 254, in run
+    answer, meta = infer(cli, tok, model, prompt, cfg['seed'], sd)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-4组3seed/ablation_host.py", line 128, in infer
+    raise RuntimeError(f'incomplete generation or missing EOG (rc={rc})')
+RuntimeError: incomplete generation or missing EOG (rc=1)

@@ -1,0 +1,9 @@
+{
+  "arm": "A",
+  "arm_name": "baseline",
+  "seed": 42,
+  "stage_path": "/Users/lili/Desktop/test/具体正向设计差异-设计稿送审-完整包/原始证据/双案例来源/案例01-送审/stage1.md",
+  "stage_sha256": "6935f569934f14fc4d167707572243c9f0d0dde30ea0e88e5e2609673280cf8b",
+  "materials": [],
+  "workbench_cli": "/Users/lili/Desktop/test/formsy-local-kit-test-20261029/isolated/config/sop-runtimes/bca1b2cf88bb7a6b28c97c10dbfc8a8a13f4d90ba4994707642704493b50d804/venv/bin/formsy-sop"
+}

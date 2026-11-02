@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-4组3seed/ablation_host.py", line 284, in main
+    return asyncio.run(run(args))
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lili/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/lili/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lili/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-4组3seed/ablation_host.py", line 247, in run
+    answer, meta = infer(cli, tok, model, prompt, cfg['seed'], sd)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-4组3seed/ablation_host.py", line 106, in infer
+    out = (folder / 'stdout.txt').read_text(encoding='utf-8', errors='strict')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lili/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1028, in read_text
+    return f.read()
+           ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x96 in position 77: invalid start byte
