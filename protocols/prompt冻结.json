@@ -1,0 +1,49 @@
+{
+  "prompts": {
+    "baseline-seed42": {
+      "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/prompts/baseline-seed42.prompt.txt",
+      "sha256": "ebf4aeac7a157f0debbc1c36faa4c14d416540cddf3a6572de04f8d7fce895a2",
+      "bytes": 2633
+    },
+    "baseline-seed43": {
+      "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/prompts/baseline-seed43.prompt.txt",
+      "sha256": "ebf4aeac7a157f0debbc1c36faa4c14d416540cddf3a6572de04f8d7fce895a2",
+      "bytes": 2633
+    },
+    "baseline-seed44": {
+      "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/prompts/baseline-seed44.prompt.txt",
+      "sha256": "ebf4aeac7a157f0debbc1c36faa4c14d416540cddf3a6572de04f8d7fce895a2",
+      "bytes": 2633
+    },
+    "neutral-long-seed42": {
+      "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/prompts/neutral-long-seed42.prompt.txt",
+      "sha256": "5aeb7574dcc1cf4317e348c9ff501816dc8424e7fe9620237ef3b01f82aaf9e4",
+      "bytes": 106976
+    },
+    "neutral-long-seed43": {
+      "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/prompts/neutral-long-seed43.prompt.txt",
+      "sha256": "5aeb7574dcc1cf4317e348c9ff501816dc8424e7fe9620237ef3b01f82aaf9e4",
+      "bytes": 106976
+    },
+    "neutral-long-seed44": {
+      "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/prompts/neutral-long-seed44.prompt.txt",
+      "sha256": "5aeb7574dcc1cf4317e348c9ff501816dc8424e7fe9620237ef3b01f82aaf9e4",
+      "bytes": 106976
+    },
+    "main-sop-seed42": {
+      "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/prompts/main-sop-seed42.prompt.txt",
+      "sha256": "0122d5542eac9eb740640f0ef1adf5e97bda85c8314cfac13df0bebd19842f7e",
+      "bytes": 83299
+    },
+    "main-sop-seed43": {
+      "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/prompts/main-sop-seed43.prompt.txt",
+      "sha256": "0122d5542eac9eb740640f0ef1adf5e97bda85c8314cfac13df0bebd19842f7e",
+      "bytes": 83299
+    },
+    "main-sop-seed44": {
+      "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/prompts/main-sop-seed44.prompt.txt",
+      "sha256": "0122d5542eac9eb740640f0ef1adf5e97bda85c8314cfac13df0bebd19842f7e",
+      "bytes": 83299
+    }
+  }
+}

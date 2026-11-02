@@ -1,6 +1,7 @@
 {
   "secrets": [],
-  "private_artifacts": [],
-  "absolute_user_paths": [],
+  "oversized_or_model_files": [],
+  "file_count": 393,
+  "total_mib": 5.516,
   "safe_to_publish": true
 }

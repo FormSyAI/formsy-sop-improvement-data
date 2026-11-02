@@ -1,0 +1,51 @@
+{
+  "status": "blocked",
+  "completed_full_runs": 1,
+  "full_run_name": "baseline-seed42",
+  "failed_attempts": [
+    {
+      "attempt": "attempt1",
+      "name": "baseline-seed43",
+      "exit_code": 1,
+      "eog": false,
+      "failure_classification": "environment-gpu-oom",
+      "stdout_chars": 217,
+      "stderr": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/runs/attempt1/baseline-seed43/stderr.txt"
+    },
+    {
+      "attempt": "attempt1",
+      "name": "neutral-long-seed42",
+      "exit_code": 1,
+      "eog": false,
+      "failure_classification": "gpu-oom",
+      "stdout_chars": 0,
+      "stderr": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/runs/attempt1/neutral-long-seed42/stderr.txt"
+    },
+    {
+      "attempt": "attempt2",
+      "name": "baseline-seed43",
+      "exit_code": 1,
+      "eog": false,
+      "failure_classification": "environment-gpu-oom-after-external-runner-stop",
+      "stdout_chars": 481,
+      "stderr": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/runs/attempt2/baseline-seed43/stderr.txt"
+    },
+    {
+      "attempt": "attempt3-context8192",
+      "name": "baseline-seed43",
+      "exit_code": 1,
+      "eog": false,
+      "failure_classification": "environment-gpu-oom-at-8192-context",
+      "stdout_chars": 780,
+      "stderr": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/runs/attempt3-context8192/baseline-seed43/stderr.txt"
+    }
+  ],
+  "cpu_smoke": {
+    "name": "baseline-seed43",
+    "exit_code": 0,
+    "generated_tokens": 127,
+    "eog": false,
+    "duration_seconds": 372.496,
+    "note": "CPU can load model and generate, but speed is not practical for 9 full samples."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "purpose": "长度对照组，排除提示长度本身影响",
+  "sop_chars": 37576,
+  "neutral_chars": 37610,
+  "sha256": "106bb8326cbd904d0cb0af71ae9e92692ab755d8e7dafa58e6c4c52945536c9a",
+  "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/中性长提示资源.md",
+  "note": "内容为通用软件设计建议，不包含 FormSy 特定规则、评审金标或案例答案。"
+}
