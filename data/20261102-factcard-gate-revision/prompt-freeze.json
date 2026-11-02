@@ -1,0 +1,19 @@
+{
+  "prompts": {
+    "fact-card-seed42": {
+      "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-事实卡与定向修正-v0.3/prompts/fact-card-seed42.prompt.txt",
+      "sha256": "473ab6ba9ecfc2fb3a3cf910bc7d1a38a63c8b3322503d04279a8be3b933372e",
+      "bytes": 3967
+    },
+    "fact-card-seed43": {
+      "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-事实卡与定向修正-v0.3/prompts/fact-card-seed43.prompt.txt",
+      "sha256": "473ab6ba9ecfc2fb3a3cf910bc7d1a38a63c8b3322503d04279a8be3b933372e",
+      "bytes": 3967
+    },
+    "fact-card-seed44": {
+      "path": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-事实卡与定向修正-v0.3/prompts/fact-card-seed44.prompt.txt",
+      "sha256": "473ab6ba9ecfc2fb3a3cf910bc7d1a38a63c8b3322503d04279a8be3b933372e",
+      "bytes": 3967
+    }
+  }
+}

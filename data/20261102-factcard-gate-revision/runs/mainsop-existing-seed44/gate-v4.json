@@ -1,0 +1,42 @@
+{
+  "path": "runs/mainsop-existing-seed44/final-answer.md",
+  "facts": {
+    "F01_auto_publish": false,
+    "F02_old_readonly": false,
+    "F03_latest_only": false,
+    "F04_history": true,
+    "F05_project_scope": true,
+    "F06_comment_binding": true,
+    "F07_no_inherit": false,
+    "F08_process_before_confirm": true,
+    "F09_single_confirmer": false,
+    "F10_downloaded_copy": true
+  },
+  "facts_missing": [
+    "F01_auto_publish",
+    "F02_old_readonly",
+    "F03_latest_only",
+    "F07_no_inherit",
+    "F09_single_confirmer"
+  ],
+  "scope_hits": [
+    "管理员",
+    "通知模块",
+    "数据备份",
+    "版本对比",
+    "批量上传"
+  ],
+  "gate_passed": false,
+  "failure_reasons": [
+    "missing fact F01_auto_publish",
+    "missing fact F02_old_readonly",
+    "missing fact F03_latest_only",
+    "missing fact F07_no_inherit",
+    "missing fact F09_single_confirmer",
+    "forbidden scope hit: 管理员",
+    "forbidden scope hit: 通知模块",
+    "forbidden scope hit: 数据备份",
+    "forbidden scope hit: 版本对比",
+    "forbidden scope hit: 批量上传"
+  ]
+}

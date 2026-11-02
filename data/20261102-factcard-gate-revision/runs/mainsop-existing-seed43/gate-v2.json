@@ -1,0 +1,30 @@
+{
+  "path": "runs/mainsop-existing-seed43/final-answer.md",
+  "facts": {
+    "F01_auto_publish": true,
+    "F02_old_readonly": true,
+    "F03_latest_only": true,
+    "F04_history": false,
+    "F05_project_scope": true,
+    "F06_comment_binding": true,
+    "F07_no_inherit": true,
+    "F08_process_before_confirm": true,
+    "F09_single_confirmer": true,
+    "F10_downloaded_copy": false
+  },
+  "facts_missing": [
+    "F04_history",
+    "F10_downloaded_copy"
+  ],
+  "scope_hits": [
+    "自动通知",
+    "云存储"
+  ],
+  "gate_passed": false,
+  "failure_reasons": [
+    "missing fact F04_history",
+    "missing fact F10_downloaded_copy",
+    "forbidden scope hit: 自动通知",
+    "forbidden scope hit: 云存储"
+  ]
+}

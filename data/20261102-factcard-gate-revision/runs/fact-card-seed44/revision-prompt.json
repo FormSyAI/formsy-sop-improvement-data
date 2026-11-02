@@ -1,0 +1,7 @@
+{
+  "path": "prompts/fact-card-seed44-revision.prompt.txt",
+  "sha256": "b09c880789a9fb8b4b9bb18a65f09b3816f7414d4b82efd808aee174b31c50f6",
+  "bytes": 10040,
+  "input_gate": "runs/fact-card-seed44/gate-v2.json",
+  "input_original": "runs/fact-card-seed44/final-answer.md"
+}

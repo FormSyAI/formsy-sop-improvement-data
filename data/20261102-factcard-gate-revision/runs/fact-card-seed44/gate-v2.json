@@ -1,0 +1,36 @@
+{
+  "path": "runs/fact-card-seed44/final-answer.md",
+  "facts": {
+    "F01_auto_publish": false,
+    "F02_old_readonly": true,
+    "F03_latest_only": false,
+    "F04_history": true,
+    "F05_project_scope": false,
+    "F06_comment_binding": true,
+    "F07_no_inherit": false,
+    "F08_process_before_confirm": true,
+    "F09_single_confirmer": false,
+    "F10_downloaded_copy": false
+  },
+  "facts_missing": [
+    "F01_auto_publish",
+    "F03_latest_only",
+    "F05_project_scope",
+    "F07_no_inherit",
+    "F09_single_confirmer",
+    "F10_downloaded_copy"
+  ],
+  "scope_hits": [
+    "版本对比"
+  ],
+  "gate_passed": false,
+  "failure_reasons": [
+    "missing fact F01_auto_publish",
+    "missing fact F03_latest_only",
+    "missing fact F05_project_scope",
+    "missing fact F07_no_inherit",
+    "missing fact F09_single_confirmer",
+    "missing fact F10_downloaded_copy",
+    "forbidden scope hit: 版本对比"
+  ]
+}

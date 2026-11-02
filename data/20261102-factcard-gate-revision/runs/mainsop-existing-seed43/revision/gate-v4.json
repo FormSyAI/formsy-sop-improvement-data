@@ -1,0 +1,19 @@
+{
+  "path": "runs/mainsop-existing-seed43/revision/final-answer.md",
+  "facts": {
+    "F01_auto_publish": true,
+    "F02_old_readonly": true,
+    "F03_latest_only": true,
+    "F04_history": true,
+    "F05_project_scope": true,
+    "F06_comment_binding": true,
+    "F07_no_inherit": true,
+    "F08_process_before_confirm": true,
+    "F09_single_confirmer": true,
+    "F10_downloaded_copy": true
+  },
+  "facts_missing": [],
+  "scope_hits": [],
+  "gate_passed": true,
+  "failure_reasons": []
+}

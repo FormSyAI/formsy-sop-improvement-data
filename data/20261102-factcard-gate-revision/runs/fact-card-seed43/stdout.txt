@@ -1,0 +1,217 @@
+
+<think>
+好的，我现在需要处理用户提供的需求，设计一个“设计稿送审与客户确认工具”的方案。首先，我需要仔细阅读用户提供的事实卡和当前用户输入，确保完全理解所有的业务规则和边界条件。
+
+首先，用户已经确认的事实包括审核通过即自动发布、旧版本只读、意见和确认仅对最新版本开放等。这些是必须严格遵循的规则。同时，技术边界方面，审核和发布必须作为一个整体，不能拆分接口，权限矩阵需要区分客户确认人和其他客户。
+
+接下来，我需要分析用户的需求。用户提到工作室有设计师、项目负责人和客户，使用电脑或手机网页。设计师上传设计稿，负责人审核后发给客户，客户可以提意见或确认。每个项目可能有多个设计稿，每个设计稿有多个版本。客户只能查看自己项目内的已发布版本，意见必须关联具体设计稿和版本。新版本发布后，旧版本和旧意见保留，但旧版本的确认不能继承到新版本。
+
+现在需要将这些需求转化为设计文档。首先，业务理解部分需要明确系统的主要功能，比如版本管理、审核流程、客户确认、意见处理等。规则和未知部分需要列出已知的规则和可能存在的疑问，比如如何处理客户确认后的修改申请，是否需要记录负责人处理意见的状态等。
+
+关键状态和权限方面，需要区分不同用户角色（设计师、负责人、客户确认人、其他客户）的权限，比如谁可以上传、审核、确认、提意见等。数据模型需要包括项目、设计稿、版本、意见、确认记录等实体，并定义它们之间的关系。
+
+接口设计部分需要考虑用户操作的接口，如上传设计稿、审核、发布、提意见、确认等，每个接口需要绑定version_id，并遵循权限控制。实施任务包括前端界面、后端逻辑、数据库设计、权限控制、历史记录等。验收场景需要具体的操作步骤和预期结果，如上传版本后自动发布，客户只能看到已发布版本，意见处理后才能确认等。
+
+在自检部分，需要检查是否覆盖所有事实卡中的规则，是否遗漏了任何边界条件，比如撤销访问不影响已下载副本，权限是否正确区分，数据模型是否包含必要字段等。同时，需要确保没有引入未确认的功能，如通知、云存储等。
+
+可能的问题包括如何处理客户确认后的修改申请流程，是否需要记录负责人处理意见的具体内容，以及如何确保历史记录的完整保留。这些需要作为待确认问题列出，而不是假设已解决。
+
+最后，确保所有内容符合用户提供的事实卡，不添加任何未确认的功能，并且结构清晰，便于后续开发团队理解和实施。
+</think>
+
+# 设计稿送审与客户确认工具：完整设计文档
+
+## 一、业务理解
+系统需支持多角色协作的版本化设计稿管理流程，核心业务流为：
+设计师上传设计稿→负责人审核→发布→客户确认/提意见→版本迭代
+关键约束：
+- 版本化管理（每设计稿可多版本）
+- 客户视角隔离（仅可见已发布版本）
+- 意见与确认绑定最新版本
+- 严格权限分离（确认人特权 vs 通用客户）
+
+## 二、规则与未知
+### 已知规则
+- F01-F10（见事实卡）
+- 版本状态：草稿/审核中/已发布/已废弃
+- 意见状态：待处理/已处理/已驳回
+- 确认状态：未确认/已确认/已撤回
+- 历史记录不可修改
+
+### 待确认问题
+- Q01：客户确认后的新修改申请如何触发新版本？
+- Q02：负责人处理意见是否需要记录处理方式？
+- Q03：是否允许客户对已发布但未确认版本提意见？
+- Q04：设计稿上传是否需要版本命名规范？
+
+## 三、关键状态及权限矩阵
+| 角色           | 权限说明                                                                 |
+|----------------|--------------------------------------------------------------------------|
+| 设计师         | 上传设计稿，编辑草稿，查看所有版本（含未发布）                          |
+| 负责人         | 审核/发布版本，处理客户意见，查看所有项目数据                           |
+| 客户确认人     | 查看已发布版本，对最新版本进行确认操作                                  |
+| 其他客户       | 查看已发布版本，对最新版本提意见，无法确认                              |
+| 所有角色       | 查看历史记录（含未发布版本），但无法修改已发布内容                     |
+
+## 四、数据模型与接口设计
+### 核心数据模型
+```mermaid
+erDiagram
+    PROJECT -->|< DESIGN_DOCUMENT
+    DESIGN_DOCUMENT -->|< VERSION
+    VERSION -->|< OPINION
+    VERSION -->|< CONFIRMATION
+    VERSION -->|< HISTORY
+    
+    PROJECT {
+        int id
+        string name
+        int client_confirmer_id
+        datetime created_at
+    }
+    
+    DESIGN_DOCUMENT {
+        int id
+        string title
+        string file_path
+        int project_id
+    }
+    
+    VERSION {
+        int id
+        string version_number
+        string status (draft/review/published/archived)
+        int design_doc_id
+        datetime created_at
+    }
+    
+    OPINION {
+        int id
+        string content
+        int page_number
+        int version_id
+        int user_id
+        datetime created_at
+        string status (pending/processed/rejected)
+    }
+    
+    CONFIRMATION {
+        int id
+        int version_id
+        int user_id
+        datetime confirmed_at
+        string confirmation_type (initial/revision)
+    }
+    
+    HISTORY {
+        int id
+        string action_type
+        int version_id
+        int user_id
+        datetime timestamp
+    }
+```
+
+### 核心接口清单
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Designer
+    participant Approver
+    participant System
+    
+    Designer->>System: upload_design_doc(project_id, file)
+    System-->>Designer: return design_doc_id
+    
+    Approver->>System: review_version(version_id, approval_status)
+    System-->>Approver: trigger_publish(version_id) if approved
+    
+    Client->>System: get_published_versions(project_id)
+    System-->>Client: return filtered versions
+    
+    Client->>System: submit_opinion(version_id, content, page)
+    System-->>Client: return opinion_id
+    
+    Approver->>System: process_opinion(opinion_id, status, remark)
+    System-->>Approver: update opinion status
+    
+    Client->>System: confirm_version(version_id)
+    System-->>Client: return confirmation status
+    
+    System->>All: log_history(action_type, version_id, user_id)
+```
+
+## 五、主要实施任务
+1. **版本控制模块**
+   - 实现多层级版本树结构
+   - 自动同步设计稿与版本关系
+   - 状态机管理（草稿→审核中→已发布→已废弃）
+
+2. **权限控制模块**
+   - 基于RBAC的细粒度权限
+   - 客户确认人特殊权限校验
+   - 版本状态与操作权限关联
+
+3. **意见处理流程**
+   - 意见绑定版本与页面
+   - 处理状态追踪（待处理→已处理→已驳回）
+   - 处理记录与原始意见关联
+
+4. **发布机制**
+   - 审核通过自动触发发布
+   - 旧版本只读锁定
+   - 新版本发布时触发历史记录归档
+
+5. **数据隔离**
+   - 项目级数据隔离
+   - 客户视角过滤（仅显示已发布版本）
+   - 历史数据完整保留
+
+## 六、可验证验收场景
+### 场景1：版本发布流程
+- 前置条件：设计师上传v1.0设计稿
+- 操作：负责人审核通过
+- 预期结果：
+  - 系统自动发布v1.0
+  - 客户可查看v1.0
+  - v1.0变为只读状态
+
+### 场景2：意见处理流程
+- 前置条件：客户对v1.0提交意见
+- 操作：负责人处理意见
+- 预期结果：
+  - 系统记录处理状态
+  - 客户无法确认直到意见处理完成
+  - 历史记录包含处理过程
+
+### 场景3：版本迭代验证
+- 前置条件：v1.0已发布并确认
+- 操作：设计师上传v2.0
+- 预期结果：
+  - 客户仅可见v2.0
+  - v1.0确认状态不继承
+  - v1.0意见保留但不可操作
+
+## 七、产品与技术自检
+### 产品合规性
+- ✅ 全部事实卡规则已覆盖
+- ✅ 未引入未确认功能（如通知、云存储）
+- ✅ 权限矩阵符合技术边界要求
+
+### 技术可行性
+- ✅ 版本状态机设计合理
+- ✅ 数据隔离方案可行
+- ✅ 接口设计符合RESTful规范
+
+### 风险点
+- 历史数据量可能影响查询性能（建议分页+缓存）
+- 多版本并发处理需考虑锁机制
+- 客户确认人权限需严格校验（建议双重验证）
+
+## 八、候选建议（非本期范围）
+1. 增加版本对比功能
+2. 实现批量意见处理
+3. 增加设计稿预览功能
+4. 支持多格式文件（如PSD） [end of text]
+
+

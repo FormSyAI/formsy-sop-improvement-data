@@ -1,0 +1,25 @@
+0.00.045.482 I llama_completion: llama backend init
+0.00.045.487 I llama_completion: load the model and apply lora adapter, if any
+0.00.140.269 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.00.731.492 I cmn          init: llama threadpool init, n_threads = 4
+0.00.828.072 I 
+0.00.830.625 I system_info: n_threads = 4 (n_threads_batch = 4) / 10 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | ACCELERATE = 1 | REPACK = 1 | 
+0.00.830.626 I 
+0.00.833.445 I sampler seed: 44
+0.00.833.451 I sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.000, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 64
+	top_k = 20, top_p = 0.950, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.600
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+0.00.833.454 I sampler chain: logits -> ?penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> top-p -> ?min-p -> ?xtc -> temp-ext -> dist 
+0.00.833.454 I generate: n_ctx = 32768, n_batch = 256, n_predict = 4096, n_keep = 0
+0.00.833.454 I 
+3.10.800.554 I common_perf_print:    sampling time =     187.35 ms
+3.10.800.556 I common_perf_print:    samplers time =      96.56 ms /  5118 tokens
+3.10.800.556 I common_perf_print:        load time =     701.66 ms
+3.10.800.557 I common_perf_print: prompt eval time =    7547.31 ms /  2667 tokens (    2.83 ms per token,   353.37 tokens per second)
+3.10.800.558 I common_perf_print:        eval time =  182214.07 ms /  2450 runs   (   74.37 ms per token,    13.45 tokens per second)
+3.10.800.559 I common_perf_print:       total time =  189972.49 ms /  5117 tokens
+3.10.800.560 I common_perf_print: unaccounted time =      23.75 ms /   0.0 %      (total - sampling - prompt eval - eval) / (total)
+3.10.800.560 I common_perf_print:    graphs reused =       2440
+3.10.800.560 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)

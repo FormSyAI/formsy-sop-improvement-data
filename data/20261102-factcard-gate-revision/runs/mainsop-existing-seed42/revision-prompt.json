@@ -1,0 +1,7 @@
+{
+  "path": "prompts/mainsop-existing-seed42-revision.prompt.txt",
+  "sha256": "d1404f872c02078d4cd082f77174099954c3cbfecdfd8e918d7d14edc7fc1aa7",
+  "bytes": 11502,
+  "input_gate": "runs/mainsop-existing-seed42/gate-v2.json",
+  "input_original": "runs/mainsop-existing-seed42/final-answer.md"
+}
