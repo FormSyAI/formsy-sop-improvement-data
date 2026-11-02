@@ -1,0 +1,21 @@
+{
+  "facts": {
+    "auto_publish": "unclear",
+    "old_readonly": "supported",
+    "latest_only": "supported",
+    "history": "supported",
+    "project_scope": "unclear",
+    "comment_binding": "supported",
+    "no_inherit": "unclear",
+    "process_before_confirm": "supported"
+  },
+  "defects": {
+    "reask_confirmed_fact": true,
+    "unmarked_assumption_or_scope_expansion": true,
+    "owner_error": true,
+    "missing_key_counterexamples": true
+  },
+  "evidence": "审核动作与自动发布拆成两个接口；重问已定修改流程；引入永久保存、回滚等建议；权限/接口未绑定确认人。",
+  "supported_facts": 5,
+  "defect_count": 4
+}

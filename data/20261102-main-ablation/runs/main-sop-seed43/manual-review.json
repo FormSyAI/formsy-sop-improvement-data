@@ -1,0 +1,21 @@
+{
+  "facts": {
+    "auto_publish": "supported",
+    "old_readonly": "supported",
+    "latest_only": "supported",
+    "history": "supported",
+    "project_scope": "supported",
+    "comment_binding": "supported",
+    "no_inherit": "supported",
+    "process_before_confirm": "supported"
+  },
+  "defects": {
+    "reask_confirmed_fact": false,
+    "unmarked_assumption_or_scope_expansion": true,
+    "owner_error": false,
+    "missing_key_counterexamples": false
+  },
+  "evidence": "8项事实覆盖完整，且区分客户确认人与其他客户；但提出云存储、SVG、通知、版本回滚等未给能力；部分接口用设计稿ID而非版本ID，存在技术边界含混。",
+  "supported_facts": 8,
+  "defect_count": 1
+}

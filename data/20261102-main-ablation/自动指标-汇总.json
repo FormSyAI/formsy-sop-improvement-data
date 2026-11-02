@@ -1,0 +1,56 @@
+[
+  {
+    "label": "R07",
+    "actual_name": "baseline-seed42",
+    "facts": 7,
+    "defects": 3
+  },
+  {
+    "label": "R02",
+    "actual_name": "baseline-seed43",
+    "facts": 8,
+    "defects": 2
+  },
+  {
+    "label": "R09",
+    "actual_name": "baseline-seed44",
+    "facts": 8,
+    "defects": 2
+  },
+  {
+    "label": "R04",
+    "actual_name": "neutral-long-seed42",
+    "facts": 6,
+    "defects": 3
+  },
+  {
+    "label": "R01",
+    "actual_name": "neutral-long-seed43",
+    "facts": 7,
+    "defects": 2
+  },
+  {
+    "label": "R05",
+    "actual_name": "neutral-long-seed44",
+    "facts": 6,
+    "defects": 1
+  },
+  {
+    "label": "R08",
+    "actual_name": "main-sop-seed42",
+    "facts": 6,
+    "defects": 0
+  },
+  {
+    "label": "R03",
+    "actual_name": "main-sop-seed43",
+    "facts": 7,
+    "defects": 1
+  },
+  {
+    "label": "R06",
+    "actual_name": "main-sop-seed44",
+    "facts": 5,
+    "defects": 1
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "facts": {
+    "auto_publish": "unclear",
+    "old_readonly": "unclear",
+    "latest_only": "supported",
+    "history": "supported",
+    "project_scope": "supported",
+    "comment_binding": "supported",
+    "no_inherit": "supported",
+    "process_before_confirm": "supported"
+  },
+  "defects": {
+    "reask_confirmed_fact": false,
+    "unmarked_assumption_or_scope_expansion": true,
+    "owner_error": true,
+    "missing_key_counterexamples": true
+  },
+  "evidence": "规则区承接多条事实，但审核通过自动发布未明说；旧版本保留未明确只读；引入管理员、通知模块、备份恢复等未给能力；把发布接口与审核规则拆开。",
+  "supported_facts": 6,
+  "defect_count": 3
+}

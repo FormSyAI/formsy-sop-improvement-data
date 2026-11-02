@@ -1,0 +1,107 @@
+{
+  "final_labels": {
+    "R07": "baseline-seed42",
+    "R02": "baseline-seed43",
+    "R09": "baseline-seed44",
+    "R04": "neutral-long-seed42",
+    "R01": "neutral-long-seed43",
+    "R05": "neutral-long-seed44",
+    "R08": "main-sop-seed42",
+    "R03": "main-sop-seed43",
+    "R06": "main-sop-seed44"
+  },
+  "thinking_labels": {
+    "T05": "baseline-seed42",
+    "T08": "baseline-seed43",
+    "T01": "baseline-seed44",
+    "T09": "neutral-long-seed42",
+    "T03": "neutral-long-seed43",
+    "T06": "neutral-long-seed44",
+    "T02": "main-sop-seed42",
+    "T07": "main-sop-seed43",
+    "T04": "main-sop-seed44"
+  },
+  "mapping": {
+    "R07": {
+      "actual_name": "baseline-seed42",
+      "final_answer_sha256": "3589e09b0fb8e0bb94fa72de50e0ab97170c1266509edfb1e6cb2dfdab17a816"
+    },
+    "R02": {
+      "actual_name": "baseline-seed43",
+      "final_answer_sha256": "b714b9bc6508e8d9b791b29c4007dd492dd8f21ebb4656ebe1ad6ef5765de930"
+    },
+    "R09": {
+      "actual_name": "baseline-seed44",
+      "final_answer_sha256": "1560d36870e3142f28bcec65baf93f29ff475534733816abf4e1f3c843bca6af"
+    },
+    "R04": {
+      "actual_name": "neutral-long-seed42",
+      "final_answer_sha256": "7cec1abb8b85fbca02c92c37e0415d6b22422582fa6d9b71515fdd7ba6706532"
+    },
+    "R01": {
+      "actual_name": "neutral-long-seed43",
+      "final_answer_sha256": "625f5b996ecfb5ba5d7472141ba00bbe3bbd7131fa0a9da95fa4028a05758d60"
+    },
+    "R05": {
+      "actual_name": "neutral-long-seed44",
+      "final_answer_sha256": "98a0cbd3b6cd8c8a55124018d5fbb4fa7fb1d508eb9f7bc42a57206e7c9b3508"
+    },
+    "R08": {
+      "actual_name": "main-sop-seed42",
+      "final_answer_sha256": "ee5dec89c5d512f007ee78fa3db49c2f1379516fbf200b607c2107cf4a3292d1"
+    },
+    "R03": {
+      "actual_name": "main-sop-seed43",
+      "final_answer_sha256": "e0c8329f40501d97720aae4b9fd54ff42bb9643bcadbd91f245d28978bef3075"
+    },
+    "R06": {
+      "actual_name": "main-sop-seed44",
+      "final_answer_sha256": "fcfc0fd2a38c95715338e5afd300ed871fa47785fc5c1b53542b4b2b37cab630"
+    },
+    "T05": {
+      "actual_name": "baseline-seed42",
+      "thinking_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_answer_sha256": "3589e09b0fb8e0bb94fa72de50e0ab97170c1266509edfb1e6cb2dfdab17a816"
+    },
+    "T08": {
+      "actual_name": "baseline-seed43",
+      "thinking_sha256": "6eff65fe240440aa6d38484f9dc9da061ae4974708c7ca37843a2586837267af",
+      "final_answer_sha256": "b714b9bc6508e8d9b791b29c4007dd492dd8f21ebb4656ebe1ad6ef5765de930"
+    },
+    "T01": {
+      "actual_name": "baseline-seed44",
+      "thinking_sha256": "8be409d9e891e37342afbef04ff125c7621c1af7b1084b0d85bf4b968a731ae6",
+      "final_answer_sha256": "1560d36870e3142f28bcec65baf93f29ff475534733816abf4e1f3c843bca6af"
+    },
+    "T09": {
+      "actual_name": "neutral-long-seed42",
+      "thinking_sha256": "3b39f657cefe31dc9f825f013b235fbaf90daa5f7252ed55387dc3ff3d9b105b",
+      "final_answer_sha256": "7cec1abb8b85fbca02c92c37e0415d6b22422582fa6d9b71515fdd7ba6706532"
+    },
+    "T03": {
+      "actual_name": "neutral-long-seed43",
+      "thinking_sha256": "71f48cdb8b96e6d878daf60279419629b8218da9186d2eebd5b4647a613a95be",
+      "final_answer_sha256": "625f5b996ecfb5ba5d7472141ba00bbe3bbd7131fa0a9da95fa4028a05758d60"
+    },
+    "T06": {
+      "actual_name": "neutral-long-seed44",
+      "thinking_sha256": "e5d83e32649416f3f43484b7de939462169266bff8b754c5ea3b0803373e004d",
+      "final_answer_sha256": "98a0cbd3b6cd8c8a55124018d5fbb4fa7fb1d508eb9f7bc42a57206e7c9b3508"
+    },
+    "T02": {
+      "actual_name": "main-sop-seed42",
+      "thinking_sha256": "3992a9f18cb671d7f69d664f84832c54b2f6695c0cad6e0d0684a0da7332ce4d",
+      "final_answer_sha256": "ee5dec89c5d512f007ee78fa3db49c2f1379516fbf200b607c2107cf4a3292d1"
+    },
+    "T07": {
+      "actual_name": "main-sop-seed43",
+      "thinking_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_answer_sha256": "e0c8329f40501d97720aae4b9fd54ff42bb9643bcadbd91f245d28978bef3075"
+    },
+    "T04": {
+      "actual_name": "main-sop-seed44",
+      "thinking_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "final_answer_sha256": "fcfc0fd2a38c95715338e5afd300ed871fa47785fc5c1b53542b4b2b37cab630"
+    }
+  }
+}
