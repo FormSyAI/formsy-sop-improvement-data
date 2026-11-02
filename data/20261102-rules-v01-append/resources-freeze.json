@@ -1,0 +1,59 @@
+{
+  "count": 9,
+  "resources": [
+    {
+      "source": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/01-SKILL.md",
+      "target": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-3seed-main-plus-rules-v0.1/resources/01-SKILL.md",
+      "bytes": 6475,
+      "sha256": "355e56887202044a848e6b49ba4ae8d62e19054b1b1c8ce5ab4238c59aa1d59f"
+    },
+    {
+      "source": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/02-SKILL.md",
+      "target": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-3seed-main-plus-rules-v0.1/resources/02-SKILL.md",
+      "bytes": 20593,
+      "sha256": "b748b0953d31ed5be4f622d7b70d8431c2f76ed39b731abe185e7589b1383797"
+    },
+    {
+      "source": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/03-SKILL.md",
+      "target": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-3seed-main-plus-rules-v0.1/resources/03-SKILL.md",
+      "bytes": 8024,
+      "sha256": "432b891397c0f67cb80ad7bef82ee18434382062106fb99d14ac3460161ee1a5"
+    },
+    {
+      "source": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/04-SKILL.md",
+      "target": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-3seed-main-plus-rules-v0.1/resources/04-SKILL.md",
+      "bytes": 8039,
+      "sha256": "a9364f71078dae93a02b86797094f00f09d90d32f638bffdb38b429b3188e456"
+    },
+    {
+      "source": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/05-SKILL.md",
+      "target": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-3seed-main-plus-rules-v0.1/resources/05-SKILL.md",
+      "bytes": 11722,
+      "sha256": "e79419f126131f3240b4d9d74beef5e374bf3d9b8338540f50fa449cf247591b"
+    },
+    {
+      "source": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/06-产品PC规则.md",
+      "target": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-3seed-main-plus-rules-v0.1/resources/06-产品PC规则.md",
+      "bytes": 7100,
+      "sha256": "01f4598ab2c075f7ad5c2b37706fe59f3efb1df4ac8d40b4c9e08c7c21aadc27"
+    },
+    {
+      "source": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/07-技术TC规则.md",
+      "target": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-3seed-main-plus-rules-v0.1/resources/07-技术TC规则.md",
+      "bytes": 6843,
+      "sha256": "7916d07f8008159a617b5950b5b36fd2d7fb8bc6678489b87c58185dfda86a7b"
+    },
+    {
+      "source": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/main资源/08-模块接口与数据.md",
+      "target": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-3seed-main-plus-rules-v0.1/resources/08-模块接口与数据.md",
+      "bytes": 11299,
+      "sha256": "44585eb0b723003a59b72842c2bcc35826af4b63e63f360a6a594721db33c690"
+    },
+    {
+      "source": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/规则补充草案-v0.1.md",
+      "target": "/Users/lili/Desktop/test/FormSy-SOP消融实验-新仓库-20261102/正式-3seed-main-plus-rules-v0.1/resources/09-规则补充草案-v0.1.md",
+      "bytes": 10966,
+      "sha256": "352b3b114fe3eb633a542a8cf88582212349ade70c171a84bd197295372487aa"
+    }
+  ]
+}

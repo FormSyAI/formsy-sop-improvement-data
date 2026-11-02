@@ -1,0 +1,21 @@
+{
+  "facts": {
+    "auto_publish": "unclear",
+    "old_readonly": "unclear",
+    "latest_only": "unclear",
+    "history": "supported",
+    "project_scope": "supported",
+    "comment_binding": "supported",
+    "no_inherit": "supported",
+    "process_before_confirm": "supported"
+  },
+  "defects": {
+    "reask_confirmed_fact": true,
+    "unmarked_assumption_or_scope_expansion": false,
+    "owner_error": true,
+    "missing_key_counterexamples": true
+  },
+  "evidence": "把审核与发布拆成两个外部接口，未承接审核通过即自动发布；旧版只读和仅最新版开放未明说；把唯一客户确认人重问为是否多个；权限表把“客户”整体作为确认执行者，未区分确认人与其他客户。",
+  "supported_facts": 5,
+  "defect_count": 3
+}

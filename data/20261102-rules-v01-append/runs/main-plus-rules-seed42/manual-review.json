@@ -1,0 +1,21 @@
+{
+  "facts": {
+    "auto_publish": "supported",
+    "old_readonly": "supported",
+    "latest_only": "supported",
+    "history": "supported",
+    "project_scope": "supported",
+    "comment_binding": "supported",
+    "no_inherit": "supported",
+    "process_before_confirm": "supported"
+  },
+  "defects": {
+    "reask_confirmed_fact": false,
+    "unmarked_assumption_or_scope_expansion": true,
+    "owner_error": false,
+    "missing_key_counterexamples": false
+  },
+  "evidence": "8项事实清楚，权限和版本边界较好；但“是否需要独立版本线”属于实现细节而非业务未知，RBAC/ACL、千级并发、500ms、10MB/s等无依据，且“下载副本不可追溯”与不可撤销事实混淆，需标记为技术建议或删出实施范围。",
+  "supported_facts": 8,
+  "defect_count": 1
+}

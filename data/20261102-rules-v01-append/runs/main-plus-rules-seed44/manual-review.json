@@ -1,0 +1,21 @@
+{
+  "facts": {
+    "auto_publish": "supported",
+    "old_readonly": "supported",
+    "latest_only": "unclear",
+    "history": "supported",
+    "project_scope": "supported",
+    "comment_binding": "supported",
+    "no_inherit": "supported",
+    "process_before_confirm": "supported"
+  },
+  "defects": {
+    "reask_confirmed_fact": false,
+    "unmarked_assumption_or_scope_expansion": true,
+    "owner_error": true,
+    "missing_key_counterexamples": true
+  },
+  "evidence": "自动发布和旧版只读承接较好，但仅最新版开放未明确；引入项目创建、邀请链接、备份恢复、归档、通知等未给能力；意见和确认模型只绑设计稿ID，未绑定版本ID；权限表把版本更新权给项目负责人而非设计师，缺关键反例。",
+  "supported_facts": 7,
+  "defect_count": 3
+}

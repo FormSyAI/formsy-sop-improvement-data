@@ -1,0 +1,27 @@
+{
+  "model_sha256": "500a8806e85ee9c83f3ae08420295592451379b4f8cf2d0f41c15dffeb6b81f0",
+  "context": 32768,
+  "reserved_output": 4096,
+  "extra_margin": 8,
+  "rows": [
+    {
+      "name": "main-plus-rules-seed42",
+      "prompt_tokens": 23385,
+      "prompt_sha256": "441d34350ffee6f1bdf41ff05a025dcda3dc3da5170a7adf6409d9635d7d0747",
+      "will_fit": true
+    },
+    {
+      "name": "main-plus-rules-seed43",
+      "prompt_tokens": 23385,
+      "prompt_sha256": "441d34350ffee6f1bdf41ff05a025dcda3dc3da5170a7adf6409d9635d7d0747",
+      "will_fit": true
+    },
+    {
+      "name": "main-plus-rules-seed44",
+      "prompt_tokens": 23385,
+      "prompt_sha256": "441d34350ffee6f1bdf41ff05a025dcda3dc3da5170a7adf6409d9635d7d0747",
+      "will_fit": true
+    }
+  ],
+  "all_will_fit": true
+}
