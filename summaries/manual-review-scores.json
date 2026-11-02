@@ -1,0 +1,202 @@
+{
+  "records": [
+    {
+      "record": "baseline-seed42",
+      "supported_facts": 6,
+      "defect_count": 4,
+      "facts": {
+        "auto_publish": "unclear",
+        "old_readonly": "supported",
+        "latest_only": "unclear",
+        "history": "supported",
+        "project_scope": "supported",
+        "comment_binding": "supported",
+        "no_inherit": "supported",
+        "process_before_confirm": "supported"
+      },
+      "defects": {
+        "reask_confirmed_fact": true,
+        "unmarked_assumption_or_scope_expansion": true,
+        "owner_error": true,
+        "missing_key_counterexamples": true
+      },
+      "evidence_summary": "自动发布未明说；把已定客户确认人重问；建议归档/版本对比等；客户“提交修改申请”但权限表未区分确认人；验收缺非确认人、意见未处理等反例。"
+    },
+    {
+      "record": "baseline-seed43",
+      "supported_facts": 8,
+      "defect_count": 3,
+      "facts": {
+        "auto_publish": "supported",
+        "old_readonly": "supported",
+        "latest_only": "supported",
+        "history": "supported",
+        "project_scope": "supported",
+        "comment_binding": "supported",
+        "no_inherit": "supported",
+        "process_before_confirm": "supported"
+      },
+      "defects": {
+        "reask_confirmed_fact": true,
+        "unmarked_assumption_or_scope_expansion": true,
+        "owner_error": false,
+        "missing_key_counterexamples": true
+      },
+      "evidence_summary": "核心事实覆盖最好，但重问多客户确认权限等已定事实；建议版本对比/批量上传；缺非确认人、意见未处理等反例。"
+    },
+    {
+      "record": "baseline-seed44",
+      "supported_facts": 8,
+      "defect_count": 2,
+      "facts": {
+        "auto_publish": "supported",
+        "old_readonly": "supported",
+        "latest_only": "supported",
+        "history": "supported",
+        "project_scope": "supported",
+        "comment_binding": "supported",
+        "no_inherit": "supported",
+        "process_before_confirm": "supported"
+      },
+      "defects": {
+        "reask_confirmed_fact": true,
+        "unmarked_assumption_or_scope_expansion": true,
+        "owner_error": false,
+        "missing_key_counterexamples": false
+      },
+      "evidence_summary": "覆盖完整且验收反例较充分，但把已定事实重新列为未知，并给出会签、紧急/重要、版本对比等扩展。"
+    },
+    {
+      "record": "main-plus-rules-seed42",
+      "supported_facts": 8,
+      "defect_count": 1,
+      "facts": {
+        "auto_publish": "supported",
+        "old_readonly": "supported",
+        "latest_only": "supported",
+        "history": "supported",
+        "project_scope": "supported",
+        "comment_binding": "supported",
+        "no_inherit": "supported",
+        "process_before_confirm": "supported"
+      },
+      "defects": {
+        "reask_confirmed_fact": false,
+        "unmarked_assumption_or_scope_expansion": true,
+        "owner_error": false,
+        "missing_key_counterexamples": false
+      },
+      "evidence_summary": "8项事实清楚，权限和版本边界较好；但“是否需要独立版本线”属于实现细节而非业务未知，RBAC/ACL、千级并发、500ms、10MB/s等无依据，且“下载副本不可追溯”与不可撤销事实混淆，需标记为技术建议或删出实施范围。"
+    },
+    {
+      "record": "main-plus-rules-seed43",
+      "supported_facts": 5,
+      "defect_count": 3,
+      "facts": {
+        "auto_publish": "unclear",
+        "old_readonly": "unclear",
+        "latest_only": "unclear",
+        "history": "supported",
+        "project_scope": "supported",
+        "comment_binding": "supported",
+        "no_inherit": "supported",
+        "process_before_confirm": "supported"
+      },
+      "defects": {
+        "reask_confirmed_fact": true,
+        "unmarked_assumption_or_scope_expansion": false,
+        "owner_error": true,
+        "missing_key_counterexamples": true
+      },
+      "evidence_summary": "把审核与发布拆成两个外部接口，未承接审核通过即自动发布；旧版只读和仅最新版开放未明说；把唯一客户确认人重问为是否多个；权限表把“客户”整体作为确认执行者，未区分确认人与其他客户。"
+    },
+    {
+      "record": "main-plus-rules-seed44",
+      "supported_facts": 7,
+      "defect_count": 3,
+      "facts": {
+        "auto_publish": "supported",
+        "old_readonly": "supported",
+        "latest_only": "unclear",
+        "history": "supported",
+        "project_scope": "supported",
+        "comment_binding": "supported",
+        "no_inherit": "supported",
+        "process_before_confirm": "supported"
+      },
+      "defects": {
+        "reask_confirmed_fact": false,
+        "unmarked_assumption_or_scope_expansion": true,
+        "owner_error": true,
+        "missing_key_counterexamples": true
+      },
+      "evidence_summary": "自动发布和旧版只读承接较好，但仅最新版开放未明确；引入项目创建、邀请链接、备份恢复、归档、通知等未给能力；意见和确认模型只绑设计稿ID，未绑定版本ID；权限表把版本更新权给项目负责人而非设计师，缺关键反例。"
+    },
+    {
+      "record": "integrated-rules-seed42",
+      "supported_facts": 5,
+      "defect_count": 3,
+      "facts": {
+        "auto_publish": "supported",
+        "old_readonly": "supported",
+        "latest_only": "unclear",
+        "history": "supported",
+        "project_scope": "supported",
+        "comment_binding": "supported",
+        "no_inherit": "unclear",
+        "process_before_confirm": "unclear"
+      },
+      "defects": {
+        "reask_confirmed_fact": false,
+        "unmarked_assumption_or_scope_expansion": true,
+        "owner_error": true,
+        "missing_key_counterexamples": true
+      },
+      "evidence_summary": "自动发布和旧版只读清楚；但最新版开放、旧确认不继承、先处理意见均未明确；引入管理员、云/本地存储、通知、容灾备份等未给能力；权限表把客户整体作为确认者，未区分确认人与其他客户；缺非确认人和意见未处理反例。"
+    },
+    {
+      "record": "integrated-rules-seed43",
+      "supported_facts": 6,
+      "defect_count": 3,
+      "facts": {
+        "auto_publish": "supported",
+        "old_readonly": "supported",
+        "latest_only": "unclear",
+        "history": "supported",
+        "project_scope": "supported",
+        "comment_binding": "supported",
+        "no_inherit": "supported",
+        "process_before_confirm": "unclear"
+      },
+      "defects": {
+        "reask_confirmed_fact": true,
+        "unmarked_assumption_or_scope_expansion": true,
+        "owner_error": true,
+        "missing_key_counterexamples": false
+      },
+      "evidence_summary": "版本模型和接口绑定较好，自动发布、旧版只读、确认不继承清楚；但重问多客户意见/匿名意见等未给能力；权限矩阵允许负责人确认版本且客户整体可确认，未绑定唯一客户确认人；先处理意见未承接；100并发、3秒、1000版本、5秒等无依据；SC005“撤销后允许下载但禁止再次访问”语义不清。"
+    },
+    {
+      "record": "integrated-rules-seed44",
+      "supported_facts": 7,
+      "defect_count": 3,
+      "facts": {
+        "auto_publish": "supported",
+        "old_readonly": "supported",
+        "latest_only": "unclear",
+        "history": "supported",
+        "project_scope": "supported",
+        "comment_binding": "supported",
+        "no_inherit": "supported",
+        "process_before_confirm": "supported"
+      },
+      "defects": {
+        "reask_confirmed_fact": false,
+        "unmarked_assumption_or_scope_expansion": true,
+        "owner_error": true,
+        "missing_key_counterexamples": true
+      },
+      "evidence_summary": "核心规则较完整，自动发布、旧版只读、确认不继承、先处理意见均承接；但仅最新版开放未明确；引入项目创建、删除、备份、通知、多语言、大文件、版本比较等未给能力；权限表仍将客户整体视为确认人，未区分其他客户；接口把审核和发布拆开。"
+    }
+  ]
+}

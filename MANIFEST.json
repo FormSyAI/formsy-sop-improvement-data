@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "DATA_SCOPE.md",
+      "bytes": 1086,
+      "sha256": "32ead0c5e9b75f14f20d8c875107663380e37792cc966f6f4f5ade9439c6d297"
+    },
+    {
+      "path": "PUBLISH_SECURITY_CHECK.json",
+      "bytes": 103,
+      "sha256": "a5e8f62527e32e81d5647a2a8dcdc647b4e39685ede63cac7c5ddac54193a09f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1729,
+      "sha256": "2f01104b5099b9262d6ac1550d196cfa2588a9b96b2575ac011e7fc5b994f214"
+    },
+    {
+      "path": "protocols/20261102-main-ablation-protocol.md",
+      "bytes": 5306,
+      "sha256": "e627f7f6cf16cba9a24330b856650d0a849d3bb966a7a70fc4afda3083d9feb0"
+    },
+    {
+      "path": "protocols/20261102-rule-additions-draft-v0.1.md",
+      "bytes": 10966,
+      "sha256": "352b3b114fe3eb633a542a8cf88582212349ade70c171a84bd197295372487aa"
+    },
+    {
+      "path": "protocols/20261102-rule-conflict-check-v0.2.json",
+      "bytes": 2763,
+      "sha256": "22d1134600ab00adf5fefb7cc4717263b3108fb7f3954c161235200e97203c54"
+    },
+    {
+      "path": "reports/20261102-factcard-gate-revision-report.md",
+      "bytes": 8902,
+      "sha256": "2936f8d7be8cfc6f077b1fe9cc61f2bd231436eecd706eeeb47fc886cae7d20c"
+    },
+    {
+      "path": "reports/20261102-main-ablation-report.md",
+      "bytes": 6663,
+      "sha256": "1fea589b642ea0e909d602f16610e096fb40e664cfd080a01e85811f247d0ded"
+    },
+    {
+      "path": "reports/20261102-rules-v01-append-report.md",
+      "bytes": 6639,
+      "sha256": "674013c96b7ae1118e3ac5faa20bd138b83a6121f531dead638ec9c84a9efa50"
+    },
+    {
+      "path": "reports/20261102-rules-v02-integrated-report.md",
+      "bytes": 9230,
+      "sha256": "3ac6cd72cca1f4aa68465c32527138a47214fbb87b343fdf4ad38ab7a191f1d3"
+    },
+    {
+      "path": "summaries/factcard-gate-scores.json",
+      "bytes": 7843,
+      "sha256": "1a833508811d15f75c7d1ba268d25b3175dd803ecd8a0b6e622b678a9c6a39c5"
+    },
+    {
+      "path": "summaries/manual-review-scores.json",
+      "bytes": 8302,
+      "sha256": "e1cc127c62ed7f0cb7d825ae6ec30f9715c2d56f113152cfdc19672d6e60ca33"
+    }
+  ]
+}
