@@ -1,0 +1,21 @@
+{
+  "facts": {
+    "auto_publish": "supported",
+    "old_readonly": "supported",
+    "latest_only": "unclear",
+    "history": "supported",
+    "project_scope": "supported",
+    "comment_binding": "supported",
+    "no_inherit": "supported",
+    "process_before_confirm": "unclear"
+  },
+  "defects": {
+    "reask_confirmed_fact": true,
+    "unmarked_assumption_or_scope_expansion": true,
+    "owner_error": true,
+    "missing_key_counterexamples": false
+  },
+  "evidence": "版本模型和接口绑定较好，自动发布、旧版只读、确认不继承清楚；但重问多客户意见/匿名意见等未给能力；权限矩阵允许负责人确认版本且客户整体可确认，未绑定唯一客户确认人；先处理意见未承接；100并发、3秒、1000版本、5秒等无依据；SC005“撤销后允许下载但禁止再次访问”语义不清。",
+  "supported_facts": 6,
+  "defect_count": 3
+}

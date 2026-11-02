@@ -1,0 +1,21 @@
+{
+  "facts": {
+    "auto_publish": "supported",
+    "old_readonly": "supported",
+    "latest_only": "unclear",
+    "history": "supported",
+    "project_scope": "supported",
+    "comment_binding": "supported",
+    "no_inherit": "unclear",
+    "process_before_confirm": "unclear"
+  },
+  "defects": {
+    "reask_confirmed_fact": false,
+    "unmarked_assumption_or_scope_expansion": true,
+    "owner_error": true,
+    "missing_key_counterexamples": true
+  },
+  "evidence": "自动发布和旧版只读清楚；但最新版开放、旧确认不继承、先处理意见均未明确；引入管理员、云/本地存储、通知、容灾备份等未给能力；权限表把客户整体作为确认者，未区分确认人与其他客户；缺非确认人和意见未处理反例。",
+  "supported_facts": 5,
+  "defect_count": 3
+}

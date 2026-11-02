@@ -1,0 +1,21 @@
+{
+  "facts": {
+    "auto_publish": "supported",
+    "old_readonly": "supported",
+    "latest_only": "unclear",
+    "history": "supported",
+    "project_scope": "supported",
+    "comment_binding": "supported",
+    "no_inherit": "supported",
+    "process_before_confirm": "supported"
+  },
+  "defects": {
+    "reask_confirmed_fact": false,
+    "unmarked_assumption_or_scope_expansion": true,
+    "owner_error": true,
+    "missing_key_counterexamples": true
+  },
+  "evidence": "核心规则较完整，自动发布、旧版只读、确认不继承、先处理意见均承接；但仅最新版开放未明确；引入项目创建、删除、备份、通知、多语言、大文件、版本比较等未给能力；权限表仍将客户整体视为确认人，未区分其他客户；接口把审核和发布拆开。",
+  "supported_facts": 7,
+  "defect_count": 3
+}

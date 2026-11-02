@@ -1,0 +1,26 @@
+{
+  "context": 32768,
+  "reserved_output": 4096,
+  "extra_margin": 8,
+  "rows": [
+    {
+      "name": "integrated-rules-seed42",
+      "prompt_tokens": 21826,
+      "prompt_sha256": "d465e60fb4d52f2bb5e384ccdc329e17735dcabb1947133bae687df6db90c707",
+      "will_fit": true
+    },
+    {
+      "name": "integrated-rules-seed43",
+      "prompt_tokens": 21826,
+      "prompt_sha256": "d465e60fb4d52f2bb5e384ccdc329e17735dcabb1947133bae687df6db90c707",
+      "will_fit": true
+    },
+    {
+      "name": "integrated-rules-seed44",
+      "prompt_tokens": 21826,
+      "prompt_sha256": "d465e60fb4d52f2bb5e384ccdc329e17735dcabb1947133bae687df6db90c707",
+      "will_fit": true
+    }
+  ],
+  "all_will_fit": true
+}
