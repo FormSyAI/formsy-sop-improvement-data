@@ -1,0 +1,182 @@
+[
+  {
+    "file": "runs/seed-5201/final/baseline/answer.md",
+    "hits": {
+      "M1_后续处置": true,
+      "M2_旧答失效": true,
+      "M3_删除级联+数据集": true,
+      "M4_上下文一致": true,
+      "M5_首条可继续": true,
+      "M6_失效重跑上下文": true,
+      "M7_失败处置": true,
+      "M8_生成中并发": true,
+      "M9_可判定断言": false,
+      "M10_事实建议未知": true
+    }
+  },
+  {
+    "file": "runs/seed-5201/final/sop/answer.md",
+    "hits": {
+      "M1_后续处置": true,
+      "M2_旧答失效": true,
+      "M3_删除级联+数据集": true,
+      "M4_上下文一致": true,
+      "M5_首条可继续": true,
+      "M6_失效重跑上下文": true,
+      "M7_失败处置": true,
+      "M8_生成中并发": true,
+      "M9_可判定断言": true,
+      "M10_事实建议未知": true
+    }
+  },
+  {
+    "file": "runs/seed-5201/initial/baseline/answer.md",
+    "hits": {
+      "M1_后续处置": true,
+      "M2_旧答失效": true,
+      "M3_删除级联+数据集": false,
+      "M4_上下文一致": true,
+      "M5_首条可继续": true,
+      "M6_失效重跑上下文": false,
+      "M7_失败处置": true,
+      "M8_生成中并发": true,
+      "M9_可判定断言": false,
+      "M10_事实建议未知": true
+    }
+  },
+  {
+    "file": "runs/seed-5201/initial/sop/answer.md",
+    "hits": {
+      "M1_后续处置": true,
+      "M2_旧答失效": true,
+      "M3_删除级联+数据集": false,
+      "M4_上下文一致": true,
+      "M5_首条可继续": true,
+      "M6_失效重跑上下文": true,
+      "M7_失败处置": true,
+      "M8_生成中并发": true,
+      "M9_可判定断言": true,
+      "M10_事实建议未知": true
+    }
+  },
+  {
+    "file": "runs/seed-5202/final/baseline/answer.md",
+    "hits": {
+      "M1_后续处置": true,
+      "M2_旧答失效": true,
+      "M3_删除级联+数据集": true,
+      "M4_上下文一致": true,
+      "M5_首条可继续": true,
+      "M6_失效重跑上下文": true,
+      "M7_失败处置": true,
+      "M8_生成中并发": true,
+      "M9_可判定断言": false,
+      "M10_事实建议未知": true
+    }
+  },
+  {
+    "file": "runs/seed-5202/final/sop/answer.md",
+    "hits": {
+      "M1_后续处置": true,
+      "M2_旧答失效": true,
+      "M3_删除级联+数据集": true,
+      "M4_上下文一致": true,
+      "M5_首条可继续": true,
+      "M6_失效重跑上下文": true,
+      "M7_失败处置": true,
+      "M8_生成中并发": true,
+      "M9_可判定断言": true,
+      "M10_事实建议未知": true
+    }
+  },
+  {
+    "file": "runs/seed-5202/initial/baseline/answer.md",
+    "hits": {
+      "M1_后续处置": true,
+      "M2_旧答失效": true,
+      "M3_删除级联+数据集": false,
+      "M4_上下文一致": true,
+      "M5_首条可继续": true,
+      "M6_失效重跑上下文": false,
+      "M7_失败处置": true,
+      "M8_生成中并发": true,
+      "M9_可判定断言": false,
+      "M10_事实建议未知": true
+    }
+  },
+  {
+    "file": "runs/seed-5202/initial/sop/answer.md",
+    "hits": {
+      "M1_后续处置": true,
+      "M2_旧答失效": true,
+      "M3_删除级联+数据集": false,
+      "M4_上下文一致": true,
+      "M5_首条可继续": true,
+      "M6_失效重跑上下文": false,
+      "M7_失败处置": true,
+      "M8_生成中并发": true,
+      "M9_可判定断言": true,
+      "M10_事实建议未知": true
+    }
+  },
+  {
+    "file": "runs/seed-5203/final/baseline/answer.md",
+    "hits": {
+      "M1_后续处置": true,
+      "M2_旧答失效": true,
+      "M3_删除级联+数据集": true,
+      "M4_上下文一致": true,
+      "M5_首条可继续": true,
+      "M6_失效重跑上下文": true,
+      "M7_失败处置": true,
+      "M8_生成中并发": true,
+      "M9_可判定断言": false,
+      "M10_事实建议未知": true
+    }
+  },
+  {
+    "file": "runs/seed-5203/final/sop/answer.md",
+    "hits": {
+      "M1_后续处置": true,
+      "M2_旧答失效": true,
+      "M3_删除级联+数据集": true,
+      "M4_上下文一致": true,
+      "M5_首条可继续": true,
+      "M6_失效重跑上下文": true,
+      "M7_失败处置": true,
+      "M8_生成中并发": false,
+      "M9_可判定断言": true,
+      "M10_事实建议未知": true
+    }
+  },
+  {
+    "file": "runs/seed-5203/initial/baseline/answer.md",
+    "hits": {
+      "M1_后续处置": true,
+      "M2_旧答失效": true,
+      "M3_删除级联+数据集": false,
+      "M4_上下文一致": true,
+      "M5_首条可继续": false,
+      "M6_失效重跑上下文": false,
+      "M7_失败处置": true,
+      "M8_生成中并发": true,
+      "M9_可判定断言": false,
+      "M10_事实建议未知": true
+    }
+  },
+  {
+    "file": "runs/seed-5203/initial/sop/answer.md",
+    "hits": {
+      "M1_后续处置": true,
+      "M2_旧答失效": true,
+      "M3_删除级联+数据集": false,
+      "M4_上下文一致": true,
+      "M5_首条可继续": true,
+      "M6_失效重跑上下文": false,
+      "M7_失败处置": true,
+      "M8_生成中并发": false,
+      "M9_可判定断言": true,
+      "M10_事实建议未知": true
+    }
+  }
+]

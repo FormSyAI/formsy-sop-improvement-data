@@ -1,0 +1,48 @@
+{
+  "model": "glm-5.3",
+  "endpoint": "https://api.aurinova.cn/v1/chat/completions",
+  "sop_ref": "origin/main",
+  "sop_commit": "84908d7e882b9b99bda786487f1b013d41ab3d0e",
+  "sop_resources": [
+    {
+      "path": "skills/formsy-development-kit/SKILL.md",
+      "chars": 5597,
+      "sha256": "355e56887202044a848e6b49ba4ae8d62e19054b1b1c8ce5ab4238c59aa1d59f"
+    },
+    {
+      "path": "skills/formsy-sop-product/SKILL.md",
+      "chars": 3489,
+      "sha256": "432b891397c0f67cb80ad7bef82ee18434382062106fb99d14ac3460161ee1a5"
+    },
+    {
+      "path": "skills/formsy-sop-product/references/PC规则.md",
+      "chars": 10547,
+      "sha256": "fa88f2f7bbfcecab7cf557eb5ec087bd55b565d99bd26d878dbe28a41cd5d43f"
+    },
+    {
+      "path": "skills/formsy-sop-technical/SKILL.md",
+      "chars": 3341,
+      "sha256": "a9364f71078dae93a02b86797094f00f09d90d32f638bffdb38b429b3188e456"
+    },
+    {
+      "path": "skills/formsy-sop-technical/references/TC规则.md",
+      "chars": 6731,
+      "sha256": "889f35383f6fe25d55b73d9bef1ab64fe68e945d22de996eec63784e8736ff16"
+    },
+    {
+      "path": "skills/formsy-sop-technical/references/模块接口与数据.md",
+      "chars": 4663,
+      "sha256": "44585eb0b723003a59b72842c2bcc35826af4b63e63f360a6a594721db33c690"
+    },
+    {
+      "path": "skills/formsy-sop-selfcheck/SKILL.md",
+      "chars": 4804,
+      "sha256": "e79419f126131f3240b4d9d74beef5e374bf3d9b8338540f50fa449cf247591b"
+    }
+  ],
+  "seed": 5201,
+  "temperature": 0.2,
+  "top_p": 0.95,
+  "reasoning_effort": "low",
+  "max_tokens": 7000
+}
